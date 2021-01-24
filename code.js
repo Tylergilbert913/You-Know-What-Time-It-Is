@@ -8,7 +8,7 @@ console.log(printDate);
 
 function setSchedule() {
 
-    $(".time-block").each(function () {
+    $(".timeBlock").each(function () {
         var id = $(this).attr("id");
         var schedule = localStorage.getItem(id);
 
@@ -31,7 +31,7 @@ saveBtn.on("click", function () {
 
 function pastPresentFuture() {
     hour = time.hours();
-    $(".time-block").each(function () {
+    $(".timeBlock").each(function () {
         var thisHour = parseInt($(this).attr("id"));
         
         if (thisHour > hour) {

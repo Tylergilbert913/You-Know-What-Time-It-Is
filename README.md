@@ -1,9 +1,14 @@
 # You-Know-What-Time-It-Is
 
-// on click listener for the save button
-    // save values of text to local storage
-    // values will be from the textarea
-    // function that uses moment.js and updates each color block in textFill to represent current time
-    // load any saved data from local storage to correct div
-    // display current day at top of page
-    // $("#current-day").text([PUT MOMEMENT FUNCTION HERE])
+## Description
+    This daily planner functions on a very basic level of simply entering information into each individual timeslot, then you click the save button and your schedule is set for the day.
+
+## Usage
+    1. The user enters the daily planner site.
+    2. The user then enters whatever information needed for that day into each timeslot.
+        * ![Screenshot (107)](https://user-images.githubusercontent.com/73138234/105641103-49979e80-5e50-11eb-8075-904702e58b09.png)
+
+    3. The user will then save by clicking the save button which will then hold all information until deleted.
+        * ![Screenshot (108)](https://user-images.githubusercontent.com/73138234/105641107-4ef4e900-5e50-11eb-985d-1be77637b546.png)
+
+
