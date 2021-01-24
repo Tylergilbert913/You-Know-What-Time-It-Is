@@ -3,6 +3,9 @@
 ## Description
     This daily planner functions on a very basic level of simply entering information into each individual timeslot, then you click the save button and your schedule is set for the day.
 
+## Deployed Site
+https://tylergilbert913.github.io/You-Know-What-Time-It-Is/
+
 ## Usage
     1. The user enters the daily planner site.
     2. The user then enters whatever information needed for that day into each timeslot.

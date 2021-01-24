@@ -5,7 +5,7 @@ var printDate = currentDate.toLocaleString(luxon.DateTime.DATE_MED_WITH_WEEKDAY)
 topDate.text(printDate);
 console.log(printDate);
 
-
+// function that saves information entered to local storage
 function setSchedule() {
 
     $(".timeBlock").each(function () {
@@ -29,21 +29,3 @@ saveBtn.on("click", function () {
     localStorage.setItem(time, schedule);
 });
 
-function pastPresentFuture() {
-    hour = time.hours();
-    $(".timeBlock").each(function () {
-        var thisHour = parseInt($(this).attr("id"));
-        
-        if (thisHour > hour) {
-            $(this).addClass("future")
-        }
-        else if (thisHour === hour) {
-            $(this).addClass("present");
-        }
-        else {
-            $(this).addClass("past");
-        }
-    })
-}
-
-pastPresentFuture();

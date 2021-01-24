@@ -18,10 +18,9 @@
         <p class="lead">A simple calender for your everyday use</p>
         <p id="currentDay" class="lead"></p>
     </header>
-
+<!-- container for entire schedule  -->
     <div class="container">
-        <!-- Timeblocks go here -->
-        <!-- with bootstrap, one row and three columns -->
+        <!-- divs for all row and columns -->
         <div id="hour-9" class="row timeBlock">
           <div class="hour col-md-1">9AM</div>
           <textarea class="past col-md-10 timing"></textarea>
@@ -50,7 +49,7 @@
         <div id="hour-14" class="row timeBlock">
           <div class="hour col-md-1">2PM</div>
           <textarea class="future col-md-10 timing"></textarea>
-          <button class="future saveBtn col-md-1 save btn">SAVE</button>
+          <button class="saveBtn col-md-1 save btn">SAVE</button>
         </div>
         <div id="hour-15" class="row timeBlock">
           <div class="hour col-md-1">3PM</div>
@@ -68,7 +67,7 @@
           <button class="saveBtn col-md-1 save btn">SAVE</button>
         </div>
       </div>
-
+<!-- all js links and srcs -->
         <script src="https://cdn.jsdelivr.net/npm/luxon@1.25.0/build/global/luxon.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
